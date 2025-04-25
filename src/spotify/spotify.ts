@@ -4,7 +4,7 @@ const AUTH_ENDPOINT = 'https://accounts.spotify.com/authorize';
 const TOKEN_ENDPOINT = 'https://accounts.spotify.com/api/token';
 const SCOPE = 'user-library-read user-read-playback-state user-modify-playback-state streaming user-read-private';
 const REDIRECT_URI = window.location.origin + '/callback';
-const CLIENT_ID = 'd60a09c653f94f0d99a68da787b854c1'; // This needs to be replaced with your actual Spotify Client ID
+const CLIENT_ID = ''; // This needs to be replaced with your actual Spotify Client ID
 
 // Generate a random string for the state parameter
 export const generateRandomString = (length: number): string => {
